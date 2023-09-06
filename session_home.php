@@ -21,7 +21,7 @@ session_start();
 
 if (isset($_POST["logout"])){
     session_destroy();
-    header( "Loaction: session.php" );
+    header("Loaction: session.php");
 }
 
 ?>
